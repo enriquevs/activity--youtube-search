@@ -1,0 +1,30 @@
+*{
+box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+.container{
+  height: 32px;
+  width: 656px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+input{
+  flex:1;
+  height:32px;
+  border-radius: 2px;
+  border: rgb(204,204,204);
+  font-size: 14px;
+  padding-left: 8px;
+}
+button{
+  width: 65px;
+  border-radius: 2px;
+  border: rgb(204, 204, 204);
+}
+.boton:hover{
+background-color: rgb(240, 240, 240);
+
+}
